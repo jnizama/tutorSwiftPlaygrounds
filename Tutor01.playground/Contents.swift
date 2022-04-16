@@ -134,3 +134,15 @@ SonsFreddyAndChukky.NoBodyScream();
 print(Building.dimension)
 print(Building.Dimensions())
 
+let name = "Andrea Bocceli"
+//clasic for
+for s in name {
+    print(s)
+}
+let names: [String] = ["Jose","Pablo","Mesias"];
+
+//for typescript (JS) style
+names.enumerated().forEach{(offset, element) in
+    print("hola")
+}
+
