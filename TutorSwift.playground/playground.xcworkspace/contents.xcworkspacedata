@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:">
+      location = "self:/Users/jnizama/Documents/projectsXcode/tutorSwiftPlaygrounds/TutorSwift.playground">
    </FileRef>
 </Workspace>
