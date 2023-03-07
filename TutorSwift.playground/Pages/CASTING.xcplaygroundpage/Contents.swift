@@ -45,5 +45,8 @@ for item in Array{
 }
 
 //Nested type (tipos anidados)
-
-
+let name = "jorge"
+let myStr = "This is a demo \(name) lage"
+let result = myStr.contains(name)
+print(result)
+print(myStr)

@@ -11,7 +11,6 @@ let generalTax = 18
 var strComputer = "My Computer 01"
 
 //Arrays
-
 var countries = ["Japan", "Corea", "Tunes", "Argelia", "Afaganistan"]
 var irracionalNumber = [Double]() //Los parantesis indica que llamamos a un metodo inicializador
 let fruits = ["Apple", "Banana", "Stranberri", "Orange" ]
@@ -20,15 +19,23 @@ for fruit in fruits {
     print(fruit)
 }
 
-irracionalNumber.append(3.1416)
+irracionalNumber.append(2.75)
 irracionalNumber.append(2.71)
 irracionalNumber.append(9.8)
+//insert 2.5 at position 1 of array
+irracionalNumber.insert(2.5, at: 1)
 
-print(irracionalNumber[0]) //print the first position
+print(irracionalNumber) //print the first position
 //adding new countries
 countries.append("Bolivia")
 countries.remove(at: 2) //remove tunes
 countries.removeLast() //remove Bolivia
+
+irracionalNumber.remove(at: 3)
+print(irracionalNumber) //
+irracionalNumber.removeAll()
+print(irracionalNumber) //
+
 for country in countries{
     print(country)
 }
@@ -167,6 +174,8 @@ print(myTupla.2)
 
 //also we can assign by name
 var (Company, Price, isBoolean) = myTupla
+
+let myTupla2 = (Fruit: "Apple", Weight: 1.55, isValid: true)
 
 print(Company)
 
