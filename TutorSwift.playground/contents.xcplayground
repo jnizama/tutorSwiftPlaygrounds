@@ -9,5 +9,12 @@
         <page name='ProtocolosDelegado'/>
         <page name='Generics'/>
         <page name='inoutParameters'/>
+        <page name='Enumeration'/>
+        <page name='Range'/>
+        <page name='Iterables'/>
+        <page name='RepeatWhile'/>
+        <page name='Tuples'/>
+        <page name='ParamInternalExternal'/>
+        <page name='Closures'/>
     </pages>
 </playground>
